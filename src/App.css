@@ -283,7 +283,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-left: 25px;
 }
 .banner img {
-  animation: updown 3s linear infinite;
+  /* animation: updown 3s linear infinite; */
+  border-radius: 100px;
 }
 @keyframes updown {
     0% {
@@ -515,6 +516,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 0;
   position: relative;
   transition: 0.3s ease-in-out;
+}
+#prof{
+  max-height: 300px;
+    width: 100%;
+    object-fit: contain;
 }
 .contact form button span {
   z-index: 1;

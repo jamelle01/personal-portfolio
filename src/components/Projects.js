@@ -18,12 +18,6 @@ export const Projects = () => {
         "https://mlbb-html-css-project.vercel.app/project%20web/home%20page/home.html",
     },
     {
-      title: "Higalaay 2022",
-      description: "Acquaintance Party Layout",
-      imgUrl:
-        "https://res.cloudinary.com/durortebu/image/upload/v1673447056/folder/fp8injj9fcam2fzqkqj9.jpg",
-    },
-    {
       title: "MR&MS BISU INTRAMURALS 2022",
       description: "Mr&Ms Intrams Banner layout",
       imgUrl:
@@ -40,6 +34,12 @@ export const Projects = () => {
       description: "Design/Layout for Sportfest managers",
       imgUrl:
         "https://res.cloudinary.com/durortebu/image/upload/v1673447043/folder/zkb2vdpyukoxkychv6pp.jpg",
+    },
+    {
+      title: "Higalaay 2022",
+      description: "Acquaintance Party Layout",
+      imgUrl:
+        "https://res.cloudinary.com/durortebu/image/upload/v1673447056/folder/fp8injj9fcam2fzqkqj9.jpg",
     },
   ];
 

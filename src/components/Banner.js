@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/photo.jpg";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -60,7 +60,7 @@ export const Banner = () => {
               {({ isVisible }) => (
                 <div
                   className={
-                    isVisible ? "animate__animated animate__fadeIn" : ""
+                    isVisible ? "" : ""
                   }
                 >
                   <span className='tagline'>Welcome to my Portfolio</span>
@@ -76,7 +76,8 @@ export const Banner = () => {
                     <h2>BS Information Technology Student</h2>
                   </h1>
                   <p>
-                  A 4th year Bachelor of Science in Information Technology Student of Bohol Island State University - Balilihan Campus.
+                    A 4th year Bachelor of Science in Information Technology
+                    Student of Bohol Island State University - Balilihan Campus.
                   </p>
                 </div>
               )}
@@ -86,11 +87,8 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div
-                  className={
-                    isVisible ? "animate__animated animate__zoomIn" : ""
-                  }
                 >
-                  <img src={headerImg} alt='Header Img' />
+                  <img src={headerImg} height={70} id='prof' alt='Header Img' />
                 </div>
               )}
             </TrackVisibility>
