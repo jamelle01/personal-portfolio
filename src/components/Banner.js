@@ -78,9 +78,6 @@ export const Banner = () => {
                   <p>
                   A 4th year Bachelor of Science in Information Technology Student of Bohol Island State University - Balilihan Campus.
                   </p>
-                  <button onClick={() => console.log("connect")}>
-                    Contact Me <ArrowRightCircle size={25} />
-                  </button>
                 </div>
               )}
             </TrackVisibility>
