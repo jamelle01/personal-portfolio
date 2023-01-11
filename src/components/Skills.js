@@ -6,6 +6,9 @@ import "react-multi-carousel/lib/styles.css";
 import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png";
+import { Row, Col } from "react-bootstrap";
+import { CircularProgressbar } from "react-circular-progressbar";
+import "react-circular-progressbar/dist/styles.css";
 
 export const Skills = () => {
   const responsive = {
@@ -36,38 +39,106 @@ export const Skills = () => {
             <div className='skill-bx wow zoomIn'>
               <h2>About Me</h2>
               <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
+                I am Jeramelle Tatad, an undergraduate student of Bachelor of
+                Science in Information Technology at Bohol Island State
+                University - Balilihan Campus. My coursework has covered a broad
+                range of IT topics such as programming languages, software
+                development methodologies, web development, and data structures.
+                I have a strong interest in web development, and I am eager to
+                apply my knowledge and skills in a real-world setting through an
+                internship opportunity.
               </p>
               <h2>Skills</h2>
-              <p>
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry.<br></br> Lorem Ipsum has been the industry's standard
-                dummy text.
-              </p>
-              <Carousel
-                responsive={responsive}
-                infinite={true}
-                className='owl-carousel owl-theme skill-slider'
-              >
-                <div className='item'>
-                  <img src={meter1} alt='Image' />
-                  <h5>Web Development</h5>
-                </div>
-                <div className='item'>
-                  <img src={meter2} alt='Image' />
-                  <h5>Brand Identity</h5>
-                </div>
-                <div className='item'>
-                  <img src={meter3} alt='Image' />
-                  <h5>Logo Design</h5>
-                </div>
-                <div className='item'>
-                  <img src={meter1} alt='Image' />
-                  <h5>Web Development</h5>
-                </div>
-              </Carousel>
+              <h3>Programming Language</h3>
+              <Row>
+                <Col
+                  className='mx-auto'
+                  xs={12}
+                  sm={6}
+                  md={4}
+                  lg={3}
+                  xl={2}
+                  style={{ maxWidth: "200px", minWidth: "200px" }}
+                >
+                  <CircularProgressbar value={40} text={`40%`} />
+                  <h5>Javascript</h5>
+                </Col>
+                <Col
+                  className='mx-auto'
+                  xs={12}
+                  sm={6}
+                  md={4}
+                  lg={3}
+                  xl={2}
+                  style={{ maxWidth: "200px", minWidth: "200px" }}
+                >
+                  <CircularProgressbar value={50} text={`50%`} />
+                  <h5>HTML</h5>
+                </Col>
+                <Col
+                  className='mx-auto'
+                  xs={12}
+                  sm={6}
+                  md={4}
+                  lg={3}
+                  xl={2}
+                  style={{ maxWidth: "200px", minWidth: "200px" }}
+                >
+                  <CircularProgressbar value={45} text={`45%`} />
+                  <h5>CSS</h5>
+                </Col>
+                <Col
+                  className='mx-auto'
+                  xs={12}
+                  sm={6}
+                  md={4}
+                  lg={3}
+                  xl={2}
+                  style={{ maxWidth: "200px", minWidth: "200px" }}
+                >
+                  <CircularProgressbar value={35} text={`35%`} />
+                  <h5>Java</h5>
+                </Col>
+              </Row>
+              <h3>Software/Others</h3>
+              <Row>
+                <Col
+                  className='mx-auto'
+                  xs={12}
+                  sm={6}
+                  md={4}
+                  lg={3}
+                  xl={2}
+                  style={{ maxWidth: "200px", minWidth: "200px" }}
+                >
+                  <CircularProgressbar value={60} text={`60%`} />
+                  <h5>Photoshop</h5>
+                </Col>
+                <Col
+                  className='mx-auto'
+                  xs={12}
+                  sm={6}
+                  md={4}
+                  lg={3}
+                  xl={2}
+                  style={{ maxWidth: "200px", minWidth: "200px" }}
+                >
+                  <CircularProgressbar value={65} text={`65%`} />
+                  <h5>VS code </h5>
+                </Col>
+                <Col
+                  className='mx-auto'
+                  xs={12}
+                  sm={6}
+                  md={4}
+                  lg={3}
+                  xl={2}
+                  style={{ maxWidth: "200px", minWidth: "200px" }}
+                >
+                  <CircularProgressbar value={70} text={`70%`} />
+                  <h5>MS Office</h5>
+                </Col>
+              </Row>
             </div>
           </div>
         </div>
