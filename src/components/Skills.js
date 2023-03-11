@@ -49,7 +49,7 @@ export const Skills = () => {
                 internship opportunity.
               </p>
               <h2>Skills</h2>
-              <h3>Programming Language</h3>
+              {/* <h3>Programming Language</h3> */}
               <Row>
                 <Col
                   className='mx-auto'
