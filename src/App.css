@@ -284,7 +284,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner img {
   /* animation: updown 3s linear infinite; */
-  border-radius: 100px;
+  /* border-radius: 100% 0% 100%; */
 }
 @keyframes updown {
     0% {
